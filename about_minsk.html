@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/visitMinskwebsite/assets/css/style.css">
+        <meta name="viewport" content="with=device-with, initial-scale=1.0"> 
+        <title>Visit Minsk</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body> 
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="/visitMinskwebsite/assets/images/minsk_logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">MAIN</a></li>
+                        <li><a href="about_minsk.html">ABOUT MINSK</a></li>
+                        <li><a href="see&do.html">SEE&DO</a></li>
+                        <li><a href="where_to_stay.html">WHERE TO STAY</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Minsk</h1>
+            <h2>Discover more about this hidden gem in the center of Europe</h2>
+
+        </section>
+        
+<!----------------About Minsk content -------->
+        <section class="about-minsk">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>Interesting facts about Minsk</h1>
+                    <p>Minsk is the capital and largest city of Belarus, a country located in Eastern Europe. It is a vibrant city, full of theaters, parks, entertainment, and more. The top 5 facts about Minsk? Let us tell you!</p>
+                    <p>Minsk is the largest city in Belarus, with a population of over 2 million people.</p>
+                    <p>The city was founded in 1067, making it over 950 years old.</p>
+                    <p>Minsk was almost completely destroyed during World War II, and was subsequently rebuilt in the Stalinist architectural style.</p>
+                    <p>The city has a rich cultural heritage, with numerous museums, theaters, and art galleries.</p>
+                    <a href="https://en.wikipedia.org/wiki/Minsk" class="hero-btn red-btn">DISCOVER MORE!</a>
+                 </div>
+                <div class="about-col">
+                    <img src="/visitMinskwebsite/assets/images/музей_вов.jpeg">
+                </div>
+            </div>
+
+        </section>
+
+
+<!-----------Footer---------------->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Visit Minsk is an informational website
+                not affiliated with any source. For further
+                 information, please contact us on info@visitMinskMikita.com</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+<!-------JavaScript for Toggle Menu--------->
+        
+        <script>
+        
+
+            var navLink = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>

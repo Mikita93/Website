@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" type="text/css" href="/visitMinskwebsite/assets/css/style.css">
+        <meta name="viewport" content="with=device-with, initial-scale=1.0"> 
+        <title>Visit Minsk</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="/visitMinskwebsite/assets/images/minsk_logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">MAIN</a></li>
+                        <li><a href="about_minsk.html">ABOUT MINSK</a></li>
+                        <li><a href="see&do.html">SEE&DO</a></li>
+                        <li><a href="where_to_stay.html">WHERE TO STAY</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Events</h1>
+        </section>
+        
+<!-----------Events content page------->
+        <section class="events-content">
+            <div class="row">
+                <div class="events-left">
+                    <img src="/visitMinskwebsite/assets/images/палацреспублики.jpeg">
+                    <h2>Events in Minsk</h2>
+                    <p>Minsk hosts a variety of events
+                    throughout the year, ranging from cultural
+                    and sports events to music festivals and
+                    exhibitions. Let’s take a look at some of
+                    the most interesting events in Minsk.</p>
+                    <br>
+                    <p>Minsk International Book Fair - Usually
+                    held in February, this event is a major
+                    gathering of publishers, authors, and book
+                    enthusiasts from Belarus and other
+                    countries.</p>
+                    <br>
+                    <p>International Women's Day - Celebrated
+                    on March 8, this day is a public holiday
+                    in Belarus and is marked with various
+                    events and activities.</p>
+                    <br>
+                    <p>Minsk Half Marathon - This popular sports
+                    event takes place in April, attracting
+                    runners from all over the world.</p>
+                    <br>
+                    <p>Coffee Fest - This is an annual festival
+                    where various coffee shop throughout
+                    the city create unique desserts and coffee
+                    to sell at the festival.</p>
+                    <br>
+                    <p>Minsk International Film Festival
+                    "Listapad" - Usually held in November,
+                     this event is a major gathering of 
+                     filmmakers and film enthusiasts from 
+                     Belarus and other countries.</p>
+
+                    <div class="comment-box">
+
+                      <h3>Got an event to share?<br>Tell us below</h3>  
+
+                      <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea row="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Send</button>
+                      </form>
+
+
+                    </div>
+                </div>
+                <div class="events-right">
+                    <h3>Event Calendar</h3>
+                    <div>
+                        <span>Festivals</span>
+                        <span><a href="https://bezkassira.by/events/festival/">more info</a></span>
+                    </div>
+                    <div>
+                        <span>Music</span>
+                        <span><a href="https://www.kvitki.by/eng/tickets/muzyka/">more info</a></span>
+                    </div>
+                    <div>
+                        <span>Theater</span>
+                        <span><a href="https://www.kvitki.by/eng/tickets/teatr/">more info</a></span>
+                    </div>
+                    <div>
+                        <span>Conferences</span>
+                        <span></span>
+                    </div>
+                    <div>
+                        <span>Movies</span>
+                        <span><a href="https://silverscreen.by/">more info</a></span>
+                    </div>
+                    <div>
+                        <span>Community</span>
+                        <span></span>
+                    </div>
+                    <div>
+                        <span>Concerts</span>
+                        <span><a href="https://www.kvitki.by/eng/tickets/muzyka/">more info</a></span>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+<!-----------Footer---------------->
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Visit Minsk is an informational website
+                not affiliated with any source. For further
+                 information, please contact us on info@visitMinskMikita.com</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+
+<!-------JavaScript for Toggle Menu--------->
+        
+        <script>
+        
+
+            var navLink = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>
